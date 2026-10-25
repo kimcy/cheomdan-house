@@ -17,6 +17,13 @@ http://localhost:4173 에서 확인합니다. CSS와 JavaScript를 읽을 수 �
 
 ## 검증 및 배포 파일
 
+### Vercel
+
+GitHub의 `main` 브랜치를 연결하고 Root Directory는 저장소 루트로 둡니다.
+`vercel.json`이 Framework를 Other, Build Command를 `npm run build`, Output Directory를 `dist`로 지정합니다.
+이 프로젝트는 `public` 폴더를 생성하지 않으므로 Output Directory를 `public`으로 설정하면 배포가 실패합니다.
+배포 시 파일을 생성하므로 `dist/`를 Git에 추가할 필요는 없습니다.
+
 ```sh
 npm test
 npm run build
