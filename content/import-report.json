@@ -1,0 +1,345 @@
+{
+  "pages": 19,
+  "posts": 100,
+  "images": 658,
+  "failures": [
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_9344.jpg",
+      "path": "assets/imported/f3695c27349c6a0d9eac.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_8341.jpg",
+      "path": "assets/imported/742dd132bb01b33cfac0.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_7503.jpg",
+      "path": "assets/imported/c8af01019695be851181.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_6506.jpg",
+      "path": "assets/imported/81ac682ec6b2eac34afb.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_8903.jpg",
+      "path": "assets/imported/e35adb6667a195f98439.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_7104.jpg",
+      "path": "assets/imported/107cf22d69f8de26b83c.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744171538_9942.jpg",
+      "path": "assets/imported/357310dee1dcc8717578.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744167869_04.jpg",
+      "path": "assets/imported/7584e406124dfaa31b0b.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744167887_7827.jpg",
+      "path": "assets/imported/58af5530fb60ab03a6b8.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744170434_015.jpg",
+      "path": "assets/imported/4a8a05fff3ada72f4a5e.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744167904_6893.jpg",
+      "path": "assets/imported/23fd0cce5451e6c69e97.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744170468_749.jpg",
+      "path": "assets/imported/d8b5caac56317da413c6.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://cdhouse.hithis.net/data/editor/2504/7b531b5145d01351ff88c1fda9f37bec_1744170479_9787.jpg",
+      "path": "assets/imported/a188cd9b4e11a1c503c1.jpg",
+      "error": "HTTP 200"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/roof_layout02_02.jpg",
+      "path": "assets/imported/fddcebfeb800b7934eda.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/roof_works_01.jpg",
+      "path": "assets/imported/bd57e8c28dc286b924b2.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/pocket_layout_03.jpg",
+      "path": "assets/imported/7b77c794c3ce41e1d1ee.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/pocket_layout_04.jpg",
+      "path": "assets/imported/c20ca38f78fe86ec8c48.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_layout_01.jpg",
+      "path": "assets/imported/fb0c793106d3e3997ea0.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_layout_02.jpg",
+      "path": "assets/imported/f50c72c532c8b6b62729.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_works_01.jpg",
+      "path": "assets/imported/04ddf8987d219a40425d.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_works_02.jpg",
+      "path": "assets/imported/fcce394a7d325b7d22a4.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_works_03.jpg",
+      "path": "assets/imported/1ef2695dac7c0c36d94f.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/250gol_works_04.jpg",
+      "path": "assets/imported/02041b427e1eb5865ff3.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/pocket_layout_01.webp",
+      "path": "assets/imported/ecac5e56422a23111b68.webp",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/pocket_layout_02.webp",
+      "path": "assets/imported/6c4286272c4fb185ff5e.webp",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_layout_01.jpg",
+      "path": "assets/imported/e51abbdd78a70ccf700f.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_layout_02.jpg",
+      "path": "assets/imported/5c431953fbfa81470dcf.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_works_01.jpg",
+      "path": "assets/imported/b0eb3bcbb752b0619962.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_works_02.jpg",
+      "path": "assets/imported/fc01c1acd4409882b759.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_works_03.jpg",
+      "path": "assets/imported/4629e6397f65e31a5d8b.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/500gol_works_04.jpg",
+      "path": "assets/imported/9e405e1078b9d5cf54a3.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/1000gol_layout_01.jpg",
+      "path": "assets/imported/050ea2bf1edeab67b26e.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/1000gol_layout_02.jpg",
+      "path": "assets/imported/b8ff190e624a66bfb957.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_layout_01.jpg",
+      "path": "assets/imported/e67c6d75aa0165629faf.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_layout_02.jpg",
+      "path": "assets/imported/04eaf02b6c4372a499bd.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_works_01.jpg",
+      "path": "assets/imported/9d0e59185a0d25258f0c.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_works_02.jpg",
+      "path": "assets/imported/80a665bd81995cfefa44.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_works_03.jpg",
+      "path": "assets/imported/ad47b7cdd4e6bc23b132.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal600_works_04.jpg",
+      "path": "assets/imported/2e12a888c6b0e7484008.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_layout_01.jpg",
+      "path": "assets/imported/30a763a76ffb78fc4d9c.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_layout_02.jpg",
+      "path": "assets/imported/45b8f144033c323799e6.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_works_01.jpg",
+      "path": "assets/imported/751a79cada32bda8258c.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_works_02.jpg",
+      "path": "assets/imported/57b9df3f6b07bf1e0d47.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_works_03.jpg",
+      "path": "assets/imported/0502196a3f59f78e753d.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/metal_works_04.jpg",
+      "path": "assets/imported/65766f1220bb75f50bef.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_layout_01.jpg",
+      "path": "assets/imported/9ea15eb908655cb31424.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_layout_02.jpg",
+      "path": "assets/imported/e3780b4df2f35bbbe15e.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_works_01.jpg",
+      "path": "assets/imported/dc176e758d5f43d5253c.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_works_02.jpg",
+      "path": "assets/imported/57dcb01c4cc0f15fc85a.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_works_03.jpg",
+      "path": "assets/imported/f85935eed67bf011aaf5.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/linemetal1000_works_04.jpg",
+      "path": "assets/imported/acc5d4fc55f14dcb5f4f.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_layout_01.jpg",
+      "path": "assets/imported/5794ac6bc816867aa5de.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_layout_02.jpg",
+      "path": "assets/imported/dbb4360b34e1610d4b19.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_01.jpg",
+      "path": "assets/imported/a082ed70f964d94f8b25.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_02.jpg",
+      "path": "assets/imported/81b4f123b41d9f2a074e.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_03.jpg",
+      "path": "assets/imported/f4c2e89b8381c2c7b147.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_04.jpg",
+      "path": "assets/imported/50e8517ac3de008a18e1.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_05.jpg",
+      "path": "assets/imported/eebe9699cec48d360822.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/v75_works_06.jpg",
+      "path": "assets/imported/a858ee4650ac246a836e.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_layout_01.jpg",
+      "path": "assets/imported/c2c174f7a0a65ddb4db3.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_layout_02.jpg",
+      "path": "assets/imported/afaf8d74e33d8255a1b9.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_04.jpg",
+      "path": "assets/imported/3d5d579ae0c43b6cb363.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_05.jpg",
+      "path": "assets/imported/1fda1c1ca9501b59f534.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_06.jpg",
+      "path": "assets/imported/43d9948538abf84b04eb.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "url": "http://www.xn--3i0bs4dyycj53c.com/data/company_intro/product/zinc_07.jpg",
+      "path": "assets/imported/83ec6ec9276e8686a73a.jpg",
+      "error": "fetch failed"
+    }
+  ],
+  "recovered": [
+    {
+      "original": "http://www.xn--6j1bk21a14cu1h05l.com/theme/new/img/shelter_6-1-1.jpg",
+      "recovered": "http://www.xn--6j1bv7plonp9b.com/theme/new/img/shelter_6-1-1.jpg",
+      "path": "assets/imported/c5d095ae348f3e9c112a.jpg"
+    },
+    {
+      "original": "http://www.xn--6j1bk21a14cu1h05l.com/theme/new/img/shelter.jpg?ver=01",
+      "recovered": "http://www.xn--6j1bv7plonp9b.com/theme/new/img/shelter.jpg?ver=01",
+      "path": "assets/imported/bf3950ea532a0ba972b6.jpg"
+    }
+  ],
+  "recheckedOn": "2026-10-25"
+}

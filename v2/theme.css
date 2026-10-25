@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+KR:wght@500;600&display=swap");
+:root,
+:root[data-theme="dark"] {
+  color-scheme: light;
+  --bg: #f4f2ed;
+  --surface: #faf9f5;
+  --ink: #20231f;
+  --muted: #73796c;
+  --line: #d7d5ce;
+  --soft: #e9e7df;
+  --accent: #d5dfb8;
+  --dark: #272d26;
+  --on-dark: #fff;
+  --header: #272d26;
+}
+.variant-two {
+  font-family: "Noto Sans KR", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+.variant-two .site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 94px;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background: transparent;
+  border-bottom: 1px solid #ffffff33;
+  backdrop-filter: none;
+  gap: 25px;
+}
+.variant-two .site-header .brand {
+  gap: 12px;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.variant-two .brand-mark {
+  font-family: "Noto Serif KR";
+  font-size: 27px;
+  line-height: 1;
+}
+.variant-two .brand b {
+  font-size: 15px;
+}
+.variant-two .brand small {
+  font: 400 8px/1 "DM Sans";
+  letter-spacing: 0.18em;
+  opacity: 0.7;
+}
+.variant-two #site-nav {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  height: 100%;
+}
+.variant-two .nav-group {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+.variant-two .nav-group > summary {
+  font-size: 14px;
+  padding: 0;
+  gap: 7px;
+}
+.variant-two .nav-group summary > span {
+  font-size: 12px;
+  opacity: 0.65;
+}
+.variant-two .dropdown {
+  position: absolute;
+  top: 94px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 270px;
+  padding: 18px;
+  background: var(--bg);
+  color: var(--ink);
+  box-shadow: 0 20px 45px #0003;
+  display: flex;
+  flex-direction: column;
+}
+.variant-two .nav-group:not([open]) > .dropdown {
+  display: none;
+}
+.variant-two .dropdown a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
+}
+.variant-two .dropdown a:hover {
+  color: var(--ink);
+  background: var(--soft);
+}
+.variant-two .dropdown svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  flex-shrink: 0;
+}
+.variant-two .header-cta {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 14px 18px 14px 22px;
+  border: 1px solid #ffffffa6;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.variant-two .header-cta svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+.variant-two .menu-toggle {
+  display: none;
+}
+.variant-two .subpage-hero {
+  width: 100%;
+  min-height: 530px;
+  padding: 125px 9vw 65px;
+  background:
+    linear-gradient(90deg, #1f2821e6, #1f282180),
+    url("/assets/project-4.png") center 55% / cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.variant-two .breadcrumbs {
+  color: #bdc5b7;
+  letter-spacing: 0.1em;
+  font-family: "DM Sans", "Noto Sans KR", sans-serif;
+}
+.variant-two .subpage-heading {
+  padding: 45px 0 0;
+  border: 0;
+}
+.variant-two .subpage-heading h1 {
+  font-family: "Noto Serif KR";
+  font-size: clamp(42px, 5.4vw, 78px);
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 1000px;
+}
+.variant-two .subpage-heading .eyebrow {
+  color: #d0d9b1;
+  font-family: "DM Sans";
+  letter-spacing: 0.2em;
+}
+.variant-two .subpage-mark {
+  display: none;
+}
+.variant-two .subpage-layout {
+  width: 82%;
+  max-width: 1440px;
+  padding-block: 80px 100px;
+  gap: 65px;
+}
+.variant-two h2,
+.variant-two .board-caption h3,
+.variant-two .empty-state h3 {
+  font-family: "Noto Serif KR";
+  font-weight: 500;
+}
+.variant-two .page-sidebar {
+  top: 32px;
+}
+.variant-two .page-sidebar nav a[aria-current="page"] {
+  background: #293028;
+  color: #fff;
+  border-radius: 0;
+}
+.variant-two .sidebar-contact {
+  background: #e9e7df;
+  border-radius: 0;
+}
+.variant-two .board-image,
+.variant-two .post-detail > .rich-content,
+.variant-two .company-intro figure {
+  border-radius: 0;
+}
+.variant-two .board-caption h3 {
+  font-size: 18px;
+}
+.variant-two .company-welcome {
+  font-family: "Noto Serif KR";
+  font-weight: 500;
+}
+.variant-two .timeline-entry > h2 {
+  font-family: "DM Sans";
+  color: #7e876f;
+}
+.variant-two .page-cta {
+  width: 100%;
+  margin: 0;
+  padding: 85px 9vw;
+  border-radius: 0;
+  background: #293028;
+  color: #fff;
+}
+.variant-two .page-cta h2 {
+  font: 500 clamp(30px, 3.2vw, 50px)/1.5 "Noto Serif KR";
+  letter-spacing: -0.05em;
+}
+.variant-two .page-cta .eyebrow {
+  color: #aab69a;
+}
+.variant-two .page-cta .button {
+  background: #dbe1ca;
+  color: #293028;
+  border-radius: 0;
+}
+.variant-two .button {
+  border-radius: 0;
+}
+.variant-two .source-credit {
+  font-size: 10px;
+}
+.variant-two .inquiry-info {
+  border-radius: 0;
+}
+.variant-two .inquiry-form {
+  border-radius: 0;
+}
+.variant-two .v2-footer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr auto;
+  align-items: end;
+  padding: 48px 6vw;
+  background: #1c211c;
+  color: #d7dbd3;
+  gap: 30px;
+}
+.variant-two .footer-brand {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.variant-two .footer-brand b {
+  font-size: 14px;
+}
+.variant-two .footer-brand p,
+.variant-two .footer-info,
+.variant-two .copyright {
+  margin-top: 5px;
+  color: #9aa395;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.variant-two .footer-info {
+  display: block;
+  margin: 0;
+}
+.variant-two .copyright {
+  font: 400 8px/1.5 "DM Sans";
+  letter-spacing: 0.08em;
+}
+.variant-two .proposal-links {
+  display: flex;
+  gap: 18px;
+  font-size: 10px;
+  margin-top: 16px;
+  color: #b0b8a7;
+}
+.variant-two .mobile-contact {
+  background: #dbe1ca;
+  color: #293028;
+}
+@media (max-width: 1200px) {
+  .variant-two #site-nav {
+    gap: 20px;
+  }
+  .variant-two .site-header {
+    padding-inline: 3vw;
+  }
+  .variant-two .site-header .brand b {
+    font-size: 13px;
+  }
+  .variant-two .header-cta {
+    gap: 15px;
+  }
+  .variant-two .subpage-layout {
+    width: 88%;
+    gap: 35px;
+    grid-template-columns: 190px minmax(0, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .variant-two .site-header {
+    height: 74px;
+    padding: 0 22px;
+  }
+  .variant-two .header-cta {
+    display: none;
+  }
+  .variant-two .menu-toggle {
+    position: relative;
+    z-index: 25;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 28px;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+  }
+  .variant-two .menu-toggle span {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+  }
+  .variant-two .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .variant-two .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+  .variant-two #site-nav {
+    position: fixed;
+    inset: 0;
+    height: 100dvh;
+    display: none;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 100px 28px 50px;
+    background: #242b24;
+    color: #fff;
+  }
+  .variant-two #site-nav.is-open {
+    display: flex;
+  }
+  .variant-two .nav-group {
+    height: auto;
+    display: block;
+    border-top: 1px solid #ffffff24;
+    padding: 21px 0;
+  }
+  .variant-two .nav-group > summary {
+    font: 500 22px/1.4 "Noto Serif KR";
+    display: flex;
+    justify-content: space-between;
+  }
+  .variant-two .dropdown,
+  .variant-two .nav-group:not([open]) > .dropdown {
+    display: flex;
+    position: static;
+    width: 100%;
+    padding: 13px 0 0;
+    background: transparent;
+    box-shadow: none;
+    transform: none;
+  }
+  .variant-two .dropdown a {
+    padding: 8px 0;
+    border: 0;
+    color: #a8afa6;
+  }
+  .variant-two .dropdown a:hover {
+    background: transparent;
+    color: #fff;
+  }
+  .variant-two .dropdown svg {
+    display: none;
+  }
+  .variant-two .site-header .brand {
+    position: relative;
+    z-index: 25;
+  }
+  .variant-two .subpage-hero {
+    min-height: 440px;
+    padding: 110px 24px 50px;
+  }
+  .variant-two .subpage-heading h1 {
+    font-size: clamp(34px, 5.5vw, 50px);
+  }
+  .variant-two .subpage-layout {
+    width: calc(100% - 48px);
+    display: block;
+    padding-block: 30px 60px;
+  }
+  .variant-two .page-sidebar {
+    position: static;
+  }
+  .variant-two .page-sidebar > .eyebrow,
+  .variant-two .sidebar-contact {
+    display: none;
+  }
+  .variant-two .page-sidebar nav {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 7px;
+    padding-bottom: 10px;
+  }
+  .variant-two .page-sidebar nav a {
+    white-space: nowrap;
+    border: 1px solid var(--line);
+    font-size: 11px;
+    padding: 12px;
+  }
+  .variant-two .page-sidebar nav a span {
+    display: none;
+  }
+  .variant-two .page-cta {
+    padding: 60px 24px;
+    align-items: flex-start;
+  }
+  .variant-two .v2-footer {
+    grid-template-columns: 1fr;
+    padding: 48px 24px;
+    gap: 28px;
+  }
+  .variant-two .board-caption h3 {
+    font-size: 16px;
+  }
+  .variant-two .page-content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 520px) {
+  .variant-two .brand-mark {
+    font-size: 22px;
+  }
+  .variant-two .site-header .brand b {
+    font-size: 12px;
+  }
+  .variant-two .subpage-heading h1 {
+    font-size: 34px;
+  }
+  .variant-two .certificate-grid .board-caption h3 {
+    font-size: 13px;
+  }
+}

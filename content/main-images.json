@@ -1,0 +1,82 @@
+{
+  "checkedOn": "2026-10-25",
+  "images": [
+    {
+      "path": "/assets/project-1.png",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/data/file/gallery/221013114ac9afc620ee74e5b8e5d1f6_zKluCEyQ_dcff90d3a4f033803244fabe7e26fdf6d9999de8.png",
+      "sha256": "825bf8ae6087b1519e1745d648324c928e4f30319be79a08e6740059bfb1f250"
+    },
+    {
+      "path": "/assets/project-2.png",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/data/file/gallery/221013114ac9afc620ee74e5b8e5d1f6_9H2BrcQU_a7c899b3353b7b9785334da9d79dcf0d5315c3e5.png",
+      "sha256": "95b76e91389f340c5ac640d8526b515d4f3c1d4dffe2403f1b0cd674f2f42cc6"
+    },
+    {
+      "path": "/assets/project-3.png",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/data/file/gallery/221013114ac9afc620ee74e5b8e5d1f6_DUJrIdgL_e0a3cd36cc3613e2ab117013f3ed940c017a474f.png",
+      "sha256": "6c1397dcd93ecbecf23ffdd71158f565a4af0422b7d937feb8a52bec2802e00a"
+    },
+    {
+      "path": "/assets/project-4.png",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/data/file/gallery/221013114ac9afc620ee74e5b8e5d1f6_dmqgWCOQ_58e0290acfa0422afb8f219c349e19244a542551.png",
+      "sha256": "95d4b65548fae7304ed16ce24756b8c7b71eb6714fbfe356c4e25569aa100908"
+    },
+    {
+      "path": "/assets/imported/57682467661ec2130c4a.png",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=39&page=2&lang=Korean&pageNum=03010000",
+      "title": "체류형쉼터(약 6평형) S-38"
+    },
+    {
+      "path": "/assets/imported/ccce41e6e2557c45e559.jpg",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=55&lang=Korean&pageNum=03010000",
+      "title": "모듈러주택, 25평 AP-10"
+    },
+    {
+      "path": "/assets/imported/03af7e20c6ef5480a287.jpg",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=4&page=3&lang=Korean&pageNum=03010000",
+      "title": "이동식주택 10평 캐빈형 G-54"
+    },
+    {
+      "path": "/assets/backimg03.jpg",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/theme/new/img/backimg03.jpg"
+    },
+    {
+      "path": "/assets/hero.jpg",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/theme/new/img/vegas/background1.jpg?ver=2303217",
+      "sha256": "b26de9b04a1e3041a84d10704b04ce4fde676ae75da6d08d184eca90129b29e9"
+    },
+    {
+      "path": "/assets/house-secondary.jpg",
+      "url": "http://www.xn--6j1bk21a14cu1h05l.com/theme/new/img/vegas/background2.jpg?ver=2303217",
+      "sha256": "3ab6167bbde75ece0d25900e7d012151f1bfc7eab14cf7ee6a848d206146d76e"
+    },
+    {
+      "path": "/assets/imported/064acd4cafb316b0e9d1.jpg",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=39",
+      "sha256": "f84b00efd17c9a6b95b618620c5cf07c2f69f42b4301dce7370ee2a5ea258c35"
+    },
+    {
+      "path": "/assets/imported/d24f7e4b87ffd9f46d4d.jpg",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=39",
+      "sha256": "8a843c1320cf579c59f9bb5cf4c1226cb23f259de6ab223b3e644633c0ce96da"
+    },
+    {
+      "path": "/assets/imported/5d73455d633d18c68749.jpg",
+      "sourcePage": "http://www.xn--6j1bk21a14cu1h05l.com/bbs/board.php?bo_table=modular_housing&wr_id=55",
+      "sha256": "f6f2dd01cd521cce9f2ed54cd07e9502869c54e99ef7755e22e400ea90db77df"
+    }
+  ],
+  "heroMotion": {
+    "intervalMs": 9000,
+    "crossfadeMs": 1000,
+    "firstFadeMs": 3000,
+    "captionEntranceMs": 1600,
+    "source": "output/sources/home-current.html",
+    "caption": "Three slides: two original homepage images and the previous proposal 2 hero",
+    "slides": [
+      "/assets/hero.jpg",
+      "/assets/house-secondary.jpg",
+      "/assets/figma/reference-4.jpg"
+    ]
+  }
+}

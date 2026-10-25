@@ -1,0 +1,23 @@
+{
+  "name": "cheomdan-design-house",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "vitest run --config vitest.config.mjs",
+    "lint": "eslint --config eslint.config.mjs app.js pages.js scripts/*.mjs",
+    "format:check": "prettier --check styles.css pages.css motion.css app.js pages.js *.json *.mjs scripts/*.mjs tests/*.mjs v2/*.css README.md",
+    "import:content": "node scripts/import-content.mjs",
+    "recover:images": "node scripts/recover-images.mjs"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11",
+    "jsdom": "^29.1.1",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.4"
+  }
+}
